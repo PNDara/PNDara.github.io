@@ -1,0 +1,473 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* background-color: #E9E9E9; */
+}
+
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+#nav-bar a:hover{
+    color: #e6dade;
+}
+
+/*------------------------navbar---------------*/
+.navbar{
+    border-bottom: 1px solid #e6dade;
+    background-image: linear-gradient(45deg, #e6dade, #DEADBF 50%, #CE88A2);
+}
+.navbar-brand img{
+    width: 50px;
+    padding-left: 10px;
+}
+.navbar-nav li{
+    padding: 0, 10px;
+}
+
+.navbar-nav li a{
+    color: #f0f0f0 !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+
+.fa-bars{
+    color: #DEADBF;
+    font-size: 30px !important;
+}
+.navbar-toggler{
+    outline: none !important;
+    border: none;
+}
+fa-user{
+    border: 1px solid whitesmoke;
+    border-radius: 50px;
+}
+
+/*-----------------Banner Section---------------*/
+
+#banner{
+    padding-top: 5%;
+}
+
+.promo-title{
+    color: #DEADBF;
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+
+.home-button1{
+    border-radius: 50px;
+    height: 42px;
+    width: 130px;
+    border: none;
+    font-family: sans-serif;
+    cursor: pointer;
+    font-size: 20px;
+    color: whitesmoke;
+    background-color: #DEADBF;
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.home-button1:hover{
+    box-shadow: 0.1em 0.1em 0.2em silver;
+    border: 1px solid #DEADBF;
+    background-color: whitesmoke;
+}
+
+a .home-button1:hover{
+    color: #CE88A2;
+}
+.img-home{
+    height: 400px;
+    background-color: #CE88A2;
+    margin-top: 35px;
+}
+
+/*-----------------------Signle Product Details---------------*/
+.product-img{
+    width: 70%;
+}
+.product-details{
+    margin-top: 100px;   
+}
+
+.signle-product img{
+    padding: 0;
+}
+.signle-product .col-md-5{
+    padding: 20px 0;
+}
+.product-details h4{
+    margin: 20px 0;
+    font-size: 22x;
+    font-weight: bold;
+}
+.product-details h3{
+    font-size: 26px;
+    line-height: 22px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.product-details select{
+    display: block;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #CE88A2;
+    border-radius: 5px;
+}
+
+select:focus{
+    outline: none;
+}
+.product-details input{
+    width: 50px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #CE88A2;
+    border-radius: 5px;
+}
+input:focus{
+    outline: none;
+}
+.single-product i{
+    margin-left: 10px;
+}
+
+
+/*-----------------------Services section----------------------*/
+
+.title-head1{
+    color: #DEADBF;
+    margin-top: 100px;
+}
+
+#services{
+    padding: 80px, 0, 80px, 0;
+
+}
+.services-img{
+    width: 100px;
+    margin-top: 100px;
+    transform: rotate(30deg);
+    transition: transform .2s;
+}
+.services{
+    padding: 20px;
+}
+.services h4{
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+
+#services .btn-primary{
+    box-shadow: none;
+    padding: 8px 25px;
+    border: 1px solid white;
+    border-radius: 20px;
+    background-color: #CE88A2;
+    margin-bottom: 40px;
+}
+#services .btn-primary:hover{
+    background-color: whitesmoke;
+    border: 1px solid #CE88A2;
+    color: #CE88A2;
+}
+
+.services img:hover{
+    width: 200px;
+    margin-top: 0;
+    transform: rotate(0);
+}
+.buy-now{
+    color: #DEADBF;
+}
+.buy-now:hover{
+    color: white;
+    box-shadow: none;
+}
+
+.services h3{
+    font-weight: 600;
+}
+.page-btn{
+    margin: 0 auto 80px;
+}
+.page-btn span{
+    display: inline-block;
+    border: 1px solid #CE88A2;
+    margin-left: 10px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+.page-btn span:hover{
+    background: #CE88A2;
+    color: #f2f2f2;
+}
+
+
+
+/*------------------------about us-------------------*/
+#about-us{
+    background: #DEADBF;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.title{
+    color: whitesmoke;
+}
+
+.see-more{
+    margin-top: 15px; 
+    color: #CE88A2;
+    border-radius: 50px;
+    border: none;
+    box-shadow: none;
+}
+#about-us p button{
+    width: 130px;
+    height: 42px;
+}
+
+.fa-arrow-right{
+    padding-left: 5px;
+}
+
+.see-more:hover{
+    box-shadow: none;
+    border: none;
+    width: 130px;
+    text-decoration: underline;
+}
+
+.about-title{
+    font-size: 32px;
+    font-weight: 600;
+    margin-top: 8%;
+}
+
+#about-us ul li{
+    margin: 10px 0;
+}
+#about-us ul{
+    margin-left: 20px;
+}
+
+.employee{
+    width: 100%;
+    align-items: center;
+    border-radius: 40px;
+}
+
+/*------------------testimonails--------------*/
+#testimonials{
+    background-color: #DEADBF;
+    border: 1px, solid #DEADBF;
+    border-radius: 20px;
+    margin: 100px; 
+}
+
+.box {
+    padding: 40px 20px;
+}
+#testimonials img{
+    width: 100px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+#testimonials .fa-star{
+    color: whitesmoke;
+}
+.fa-quote-left{
+    color: whitesmoke;
+    font-size: 30px;
+}
+.box p{
+    color: whitesmoke;
+}
+.box h4{
+    color: whitesmoke;
+    padding-top: 20px;
+}
+
+/*----------------------Footer--------------------*/
+
+#footer{
+    background-color: #CE88A2;
+}
+.h-line{
+    border-color: #e6dade;
+    border-radius: 50%;
+    opacity: 0.5;
+}
+.social-network{
+    text-decoration: none;
+    display: flex;
+    list-style: none;
+    float: right;
+}
+.social-network li{
+    padding: 0 20px;
+    font-size: 20px;
+}
+#footer a:hover{
+    color: #DEADBF;
+}
+#footer h5, #footer p{
+    color: #f2f2f2;
+}
+
+/*-----------------------------Cart---------------------*/
+.cart{
+    
+    margin: 80px auto;
+}
+table{
+    
+    width: 100%;
+    border-collapse: collapse;
+}
+.cart-info{
+    
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cart-info img{
+    width: 100px;
+}
+.description{
+    margin-top: 40px;
+}
+th{
+    font-weight: normal;
+    color: #f2f2f2;
+    background: #CE88A2;
+    padding: 5px;
+}
+td input{
+    width: 40px;
+    height: 30px;
+    padding: 5px;
+}
+td a{
+    color: #ff523b;
+    font-size: 12px;
+}
+td a:hover{
+    text-decoration: none;
+    color: #ff523b;
+}
+
+/*---------------------Total price------------------*/
+.total-price{
+    display: flex;
+    justify-content: flex-end;
+}
+.total-price table{
+    border-top: 3px solid #e6dade;
+    width: 100%;
+    max-width: 420px;
+}
+td:last-child{
+    text-align: right;
+}
+th:last-child{
+    text-align: right;
+}
+
+/*------------------------account-----------------------*/
+#account-page {
+    padding: 50px 0;
+    background-color: #DEADBF;
+}
+#account-page img{
+    padding-bottom: 50px;
+    width: 70%;
+}
+.form-container{
+    background: #fff;
+    width: 300px;
+    height: 400px;
+    position: relative;
+    text-align: center;
+    padding: 20px 0;
+    margin: auto;
+    box-shadow: 0 0 20px 0 #e6dade;
+    overflow: hidden;
+}
+.form-container span{
+    font-weight: bold;
+    padding: 0 10px;
+    color: #555;
+    cursor: pointer;
+    width: 100px;
+    display: inline-block;
+}
+.form-btn{
+    display: inline-block;
+}
+
+.form-container form{
+    max-width: 300px;
+    padding: 0 20px;
+    position: absolute;
+    top: 130px;
+    transition: transform 1s;
+}
+form input{
+    width: 100%;
+    height: 30px;
+    margin: 10px 0;
+    padding: 0 10px;
+    border: 1px solid #CE88A2;
+}
+form .btn-dark{
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-radius: 50px;
+    color: #CE88A2;
+}
+form .btn-dark:focus{
+    outline: none;
+}
+
+#sign-in{
+    left: -300px;
+}
+#sign-up{
+    left: 0;
+    top: 100px;
+}
+form a{
+    font-size: 12px;
+    color: #ff523b;
+}
+form a:hover{
+    color: #ff523b;
+}
+
+#indicator{
+    width: 100px;
+    border: none;
+    background: #CE88A2;
+    height: 3px;
+    margin-top: 8px;
+    transform: translateX(100px);
+    transition: transform 1s;
+}

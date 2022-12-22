@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minimal leaf</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+ <section id="nav-bar">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="index.html">
+              <img src="./img/logo-removebg.png" alt="Error not found">
+              <span style="color: #DEADBF;">Minimal Leaf</span> 
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <i class="fa-solid fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">HOME</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about-us">ABOUT US</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#services">SERVICES</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#testimonials">TESTIMONIALS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#footer">CONTACT</a>
+                </li>
+                <li>
+                  <a class="nav-link" href="cart.html" style="padding-left: 20px;" onclick="menutoggle()"><i class="fa-solid fa-cart-shopping"></i></a>
+                </li>
+                <li>
+                  <a class="nav-link" href="account.html"><i class="fa-solid fa-user"></i></a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+    </section>
+    <!--------------------------Account--------->
+    <section id="account-page">
+        <div class="container">
+           <div class="row">
+                <div class="col-md-6 text-center">
+                  <img src="./img/christmas.jpg" >
+                </div>
+                <div class="col-md-6">
+                  <div class="form-container">
+                    <div class="form-btn">
+                      <span onclick="signin()">Sign In</span>
+                      <span onclick="signup()">Sign Up</span>
+                      <hr id="indicator">
+                    </div>
+                    <form id="sign-in">
+                      <input type="text" placeholder="Username">
+                      <input type="password" placeholder="Password">
+                      <button type="submit" class="btn-dark">Sign In</button>
+                      <a href="#">Forget Password</a>
+                    </form>
+
+                    <form id="sign-up">
+                      <input type="text" placeholder="Username">
+                      <input type="email" placeholder="Email Address">
+                      <input type="password" placeholder="Password">
+                      <input type="password" placeholder="Confirm Password">
+                      <button type="submit" class="btn-dark">Sign Up</button>
+                    </form>
+
+                  </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!----------------------Footer/Contact---------------------->
+    
+    <section id="footer" class="pt-5 pb-4">
+      <div class="container text-center text-md-left">
+        <div class="row text-center text-md-left">
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold ">Minimal Leaf</h5>
+            <p>Grab your drinks of quality, healthy, rich of flavour, with reasonable price. Find out more delighted drinking lifestyle you ever dreamed of.</p>
+          </div>
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold ">Product</h5>
+            <p>
+              <a href="#" style="text-decoration: none;">Branding</a>
+            </p>
+            <p>
+              <a href="#" style="text-decoration: none;">Co-Founder</a>
+            </p>
+            <p>
+              <a href="#" style="text-decoration: none;">Creativity</a>
+            </p>
+            <p>
+              <a href="#" style="text-decoration: none;">Location</a>
+            </p>
+          </div>
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold ">categories</h5>
+            <p>
+              <a href="#" style="text-decoration: none;">Macha</a>
+            </p>
+            <p>
+              <a href="#" style="text-decoration: none;">Bakery</a>
+            </p>
+            <p>
+              <a href="#" style="text-decoration: none;">Milk Tea</a>
+            </p>
+            <p>
+              <a href="#" style="text-decoration: none;">Coffee</a>
+            </p>
+          </div>
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold ">Contact</h5>
+            <p>
+              <i class="fa-solid fa-location-dot"></i> Sisowat, Phnom Penh,<br> Cambodia
+
+            </p>
+            <p>
+              <i class="fa-solid fa-envelope"></i> heaklinh@gmail.com
+            </p>
+            <p>
+              <i class="fa-solid fa-phone-flip"></i> +855 12345678
+            </p>
+            <p>
+              <i class="fa-solid fa-clock"></i> Open from 9am-10pm
+            </p>
+          </div>
+        </div>
+        <hr class="h-line">
+        
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-sm-6 col-xs-12">
+              <p class="copyright-text">Copyright &copy; 2022. All Right Reserved by 
+                <a href="#">Minimal Leaf</a>.
+              </p>
+            </div>
+            <div class="col-md-4 col-sm-6 xs-12">
+              <ul class="social-network">
+                <li><a class="facebook" href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a class="ig" href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a class="mg" href="#"><i class="fa-brands fa-facebook-messenger"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-------------------Smooth Scroll------------------>
+    <script src="./smooth-scroll.js"></script>
+      <script src="https://unpkg.com/magic-snowflakes/dist/snowflakes.min.js"></script>
+      <script>
+          var sf = new Snowflakes({
+              color: "#fcfcfc",
+              count: 100,
+              maxSize: 20
+          });
+      </script>
+    <script>
+      var scroll = new SmoothScroll('a[href*="#"]');
+
+      var SignIn = document.getElementById("sign-in");
+      var SignUp = document.getElementById("sign-up");
+      var Indicator = document.getElementById("indicator");
+
+            function signup(){
+              SignUp.style.transform = "translateX(0px)";
+              SignIn.style.transform = "translateX(0px)";
+              Indicator.style.transform = "translateX(100px)";
+            }
+            function signin(){
+              SignUp.style.transform = "translateX(300px)";
+              SignIn.style.transform = "translateX(300px)";
+              Indicator.style.transform = "translateX(0px)";
+            }
+
+    
+    </script>
+</body>
+</html>

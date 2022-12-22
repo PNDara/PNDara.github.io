@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minimal leaf</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <section id="nav-bar">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#top">
+              <img src="./img/logo-removebg.png" alt="Error not found">
+              <span style="color: #DEADBF;">Minimal Leaf</span> 
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <i class="fa-solid fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#top">HOME</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about-us">ABOUT US</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#services">SERVICES</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#testimonials">TESTIMONIALS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#footer">CONTACT</a>
+                </li>
+                <li>
+                  <a class="nav-link" href="cart.html" style="padding-left: 20px;" onclick="menutoggle()"><i class="fa-solid fa-cart-shopping"></i></a>
+                </li>
+                <li>
+                  <a class="nav-link" href="account.html"><i class="fa-solid fa-user"></i></a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+     
+    </section>
+
+    <!-----------------------Banner Section------------------>
+    <section id="banner">
+      <div class="container"> 
+        <div class="row">
+          <div class="col-md-6">
+            <p class="promo-title">Minimal Leaf <br>
+              Matcha and Bakery</p>
+            <p>Enjoy your summer time drinking with us. We provide a 
+              freshing milk tea in change of a smile, joy and satisfactory
+            </p>
+            <a href="menu.html"><button class="home-button1">Buy Now</button></a>
+          </div>
+          <div class="col-md-6 text-center">
+            <img src="./img/home-image-removebg-preview.png" class="img-fluid img-home">
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr style="border: 3px solid #CE88A2;background-color: #CE88A2; width: 40%; margin-left: 30%; margin-top: 50px;">
+    
+    <!--------------------------About Us---------------------->
+
+    <section id="about-us">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 title-head2">
+            <h1 class="title text-left">Our Shop</h1>
+          </div>
+          <div class="col-md-6">
+            <p class="text-right"><button type="button" class="see-more">See More <i class="fa-solid fa-arrow-right"></i></button></p> 
+          </div>
+        </div>
+        
+        <div class="row">
+          <div class="col-md-6 about-us">
+            <p class="about-title">What make us special</p>
+            <ul>
+              <li>all drinks are made with love and care.</li>
+              <li>Good location </li>
+              <li>Provide a warm and friendly enviroment </li>
+              <li>Minimal decoration</li>          
+            </ul>
+          </div>
+          <div class="col-md-6 text-center">
+            <img src="./img/co-worker.jpg" class="fluid employee">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!----------------Service Section------------------->
+    
+    <section id="services">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-md-12">
+            <h1 class="title-head1 text-center">Popular Drink</h1>
+          </div>
+        </div>
+        <div class="row text-center">  
+          <div class="col-md-4 services">
+            <img src="./img/chocolate-frappe-removebg-preview (1).png" class="services-img">
+            <h4>Chocolate Frappe</h4>
+            <p>All frappes have different ingredients in them, but my 
+              recipe for this chocolate frappe includes cream, ice, 
+              sugar and chocolate syrup.</p>
+          </div>
+          <div class="col-md-4 services">
+            <img src="./img/strawberry-soda-removebg-preview.png" class="services-img">
+            <h4>Strawberry Soda</h4>
+            <p>A refreshmen for summer day, the combination of soda and strawberry syrup with a bit of lime, sour and sweet.</p>
+          </div>
+          <div class="col-md-4 services">
+            <img src="./img/milk_shake-removebg-preview.png" class="services-img">
+            <h4>Matcha Chocolate</h4>
+            <p>Combination of Matcha and chocolate, Rich, smooth, malty, creamy having chocolate rich in the early and matcha at the end. </p>
+          </div>
+        </div>
+        <a href="menu.html"><button type="button" class="btn btn-primary">All Services</button></a> 
+      </div>
+    </section>
+    
+    <!--------------------Testimonials------------------------>
+
+    <section id="testimonials">
+      <div class="small-container text-center">
+        <div class="row">
+          <div class="col-md-4 box">
+            <i class="fa-solid fa-quote-left"></i>
+            <br>
+            <img src="./img/pf-1.jpg" >
+            <h4>Devid Ham</h4>
+            <p>Minimalist style Matcha shop, the environment is nice and clean. 
+            </p>
+              <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+          </div>
+          <div class="col-md-4 box">
+            <i class="fa-solid fa-quote-left"></i>
+            <br>
+            <img src="./img/pf-2.jpg" >
+            <h4>Malinda Krist</h4>
+            <p>The place was nice. Still very new so clean and neat. The matcha was good.
+            </p>
+              <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+          </div>
+          <div class="col-md-4 box">
+            <i class="fa-solid fa-quote-left"></i>
+            <br>
+            <img src="./img/pf-3.jpg" >
+            <h4>Misha Meller</h4>
+            <p>Got hot matcha latte (with almond milk) & zero sugar. Decent matcha and the minimal interior is very appealing!
+            </p>
+              <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="container space"></div>
+
+    <!----------------------Footer/Contact---------------------->
+    
+    <section id="footer" class="pt-5 pb-4">
+      <div class="container text-center text-md-left">
+        <div class="row text-center text-md-left">
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold ">Minimal.Leaf</h5>
+            <p>Grab your drinks of quality, healthy, rich of flavour, with reasonable price. Find out more delighted drinking lifestyle you ever dreamed of.</p>
+          </div>
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold ">Product</h5>
+            <p>
+              <a href="#" style="text-decoration: none;">Branding</a>
+            </p>
+            <p>
+              <a href="https://www.instagram.com/tepy_____/" style="text-decoration: none;">Co-Founder</a>
+            </p>
+            <p>
+              <a href="#" style="text-decoration: none;">Creativity</a>
+            </p>
+            <p>
+              <a href="#" style="text-decoration: none;">Stylist</a>
+            </p>
+          </div>
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold ">categories</h5>
+            <p>
+              <a href="#" style="text-decoration: none;">Matcha</a>
+            </p>
+            <p>
+              <a href="#" style="text-decoration: none;">Bakery</a>
+            </p>
+            <p>
+              <a href="#" style="text-decoration: none;">Milk Tea</a>
+            </p>
+            <p>
+              <a href="#" style="text-decoration: none;">Coffee</a>
+            </p>
+          </div>
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold ">Contact</h5>
+            <p>
+              <a href="https://maps.app.goo.gl/SMq1Wj1PuQ7wgFwDA?g_st=ic"> <i class="fa-solid fa-location-dot"></i> St.Sisowat, Sangkat Chatomuk, Khan Duan Penh, Phnom Penh,<br> Cambodia
+              </a>
+            </p>
+            <p>
+              <i class="fa-solid fa-envelope"></i> heaklinh@gmail.com
+            </p>
+            <p>
+              <i class="fa-solid fa-phone-flip"></i> +855 12345678
+            </p>
+            <p>
+              <i class="fa-solid fa-clock"></i> Open from 9:30am-7pm
+            </p>
+          </div>
+        </div>
+        <hr class="h-line">
+        
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-sm-6 col-xs-12">
+              <p class="copyright-text">Copyright &copy; 2022. All Right Reserved by 
+                <a href="#">Minimal.Leaf</a>.
+              </p>
+            </div>
+            <div class="col-md-4 col-sm-6 xs-12">
+              <ul class="social-network">
+                <li><a class="facebook" href="https://web.facebook.com/minimal.leaf"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a class="ig" href="https://www.instagram.com/theminimalleaf/"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a class="mg" href="https://web.facebook.com/messages/t/109106661827682"><i class="fa-brands fa-facebook-messenger"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-------------------Smooth Scroll------------------>
+    <script src="./smooth-scroll.js"></script>
+    <script>
+      var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
+</body>
+</html>
